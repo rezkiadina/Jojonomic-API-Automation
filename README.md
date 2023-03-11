@@ -2,7 +2,7 @@
 
 ## 🛠 Tools
 **Manual:**  
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+[![Postman](https://img.shields.io/badge/-postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://galactic-space-375979.postman.co/workspace/Jojonomic~50225eb4-b154-4b07-86bc-b3f3c54e75f5/overview)
 
 **Automation:**  
 ![IntellijIDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
@@ -28,7 +28,6 @@
 
   [![LinkedIn](https://img.shields.io/badge/-Rezki%20Adina-white?style=for-the-badge&logo=linkedin&logoColor=blue)](https://www.linkedin.com/in/rezkiadina/)
   [![GitHub](https://img.shields.io/badge/-rezkiadina-white?style=for-the-badge&logo=github&logoColor=black)](https://github.com/rezkiadina)
-  [![Postman](https://img.shields.io/badge/-rezkiadina-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://galactic-space-375979.postman.co/workspace/Jojonomic~50225eb4-b154-4b07-86bc-b3f3c54e75f5/overview)
 
 ## How to run the test
 To run the this project, you can either just run the `CucumberTestSuite` test runner class, or run `mvn verify` from terminal.
