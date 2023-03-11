@@ -1,0 +1,4 @@
+starter\CucumberTestSuite.class
+starter\JojonomicAPI\JojonomicAPI.class
+starter\JojonomicStepDef\JojonomicSetpDef.class
+starter\JojonomicAPI\JojonomicResponse.class

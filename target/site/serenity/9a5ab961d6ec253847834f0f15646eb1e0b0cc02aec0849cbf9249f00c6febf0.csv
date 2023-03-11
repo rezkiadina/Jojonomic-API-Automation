@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get data on Weatherbit","Get current API data","SUCCESS","2023-03-11T22:12:41.539+07:00[Asia/Bangkok]","0.0","11.69"
+"Get data on Weatherbit","Get forecast API data","SUCCESS","2023-03-11T22:12:53.239+07:00[Asia/Bangkok]","0.0","1.3"
