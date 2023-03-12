@@ -4,16 +4,10 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
-import io.restassured.response.ResponseBody;
-import io.restassured.specification.RequestSpecification;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import org.junit.Assert;
-import org.openqa.selenium.remote.Response;
 import starter.JojonomicAPI.JojonomicAPI;
-import starter.JojonomicAPI.JojonomicResponse;
 
 
 import java.io.File;
