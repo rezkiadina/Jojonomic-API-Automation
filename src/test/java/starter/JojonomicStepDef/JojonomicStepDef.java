@@ -4,17 +4,21 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
+import io.restassured.response.ResponseBody;
+import io.restassured.specification.RequestSpecification;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
+import org.junit.Assert;
+import org.openqa.selenium.remote.Response;
 import starter.JojonomicAPI.JojonomicAPI;
 import starter.JojonomicAPI.JojonomicResponse;
 
+
 import java.io.File;
 
-import static org.hamcrest.Matchers.equalTo;
-
-public class JojonomicSetpDef {
+public class JojonomicStepDef {
 
     @Steps
     JojonomicAPI jojonomicAPI;
@@ -33,9 +37,7 @@ public class JojonomicSetpDef {
         SerenityRest.then().statusCode(ok);
     }
 
-
-
-    @Then("Body response should contain state_code {string}")
+    @And("Body response should contain state_code {string}")
     public void bodyResponseShouldContainState_code(String state_code) {
     }
 
@@ -56,7 +58,7 @@ public class JojonomicSetpDef {
         SerenityRest.when().get(JojonomicAPI.GET_forecast);
     }
 
-    @Then("Body response should contain timestamp_utc {string} and weather {string}")
+    @And("Body response should contain timestamp_utc {string} and weather {string}")
     public void bodyResponseShouldContainTimestamp_utcAndWeather(String arg0, String arg1) {
     }
 
